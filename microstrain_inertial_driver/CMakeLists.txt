@@ -75,7 +75,6 @@ include_directories("${MIP_SDK_SRC_DIR}")
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  roslint
   message_generation
   geometry_msgs
   nav_msgs
